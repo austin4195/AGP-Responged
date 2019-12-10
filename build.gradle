@@ -25,7 +25,7 @@ group 'agp.andwhat5'
 version '1.0.3'
 ext.spongeversion = '7.1.0-SNAPSHOT'
 ext.teslaversion = '1.1.6'
-ext.pixelmonversion = '7.0.7'
+ext.pixelmonversion = '7.1.1'
 
 repositories {
     maven {
@@ -43,7 +43,7 @@ repositories {
 
 dependencies {
     provided 'org.spongepowered:spongeapi:7.1.0'
-    deobfProvided ':Pixelmon-1.12.2-7.0.7-server:7.0.7'
+    deobfProvided ':Pixelmon-1.12.2-7.1.1-server:7.1.1'
     implementation "com.github.SimonFlash.TeslaPowered:TeslaLibs:v${teslaversion}"
     	compile group: 'com.zaxxer', name: 'HikariCP', version: '2.7.9'
 }
